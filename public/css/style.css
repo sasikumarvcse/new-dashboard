@@ -1,0 +1,429 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #2c3e50;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-icon {
+    font-size: 50px;
+    color: #3498db;
+  }
+  
+  .username-text {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #050505;
+  }
+  
+  .logout-container {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    width: 100%;
+    text-align: center;
+    padding-left: 20px;
+}
+
+
+.logout-btn {
+    background-color: transparent; /* Transparent background */
+    color: white !important; /* White text */
+    border: 2px solid white !important; /* White border */
+    padding: 12px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logout-btn:hover {
+    background-color: white; /* White background on hover */
+    color: #e74c3c !important; /* Red text on hover */
+    border: 2px solid white; /* Keep border white */
+}
+
+  
+  /* Main Content Styles */
+  .main-content {
+    margin-left: 250px;
+    padding: 20px;
+  }
+  
+  /* Card Styles */
+  .card1, .card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card1 h1, .card h1, .card h2 {
+    color: #2c3e50;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #startCameraBtn, #captureBtn, #submitCaptureBtn {
+    background-color: #2ecc71;
+  }
+  
+  #startCameraBtn:hover, #captureBtn:hover, #submitCaptureBtn:hover {
+    background-color: #27ae60;
+  }
+  
+  #cancelBtn, #cancelCaptureBtn {
+    background-color: #e74c3c;
+  }
+  
+  #cancelBtn:hover, #cancelCaptureBtn:hover {
+    background-color: #c0392b;
+  }
+  
+  /* File Input Styles */
+  input[type="file"] {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+  }
+  
+  /* Progress Indicator Styles */
+  #progress {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  /* Results Section Styles */
+  #results {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  /* Hidden Elements */
+  .hidden {
+    display: none;
+  }
+  /* History Section Styles */
+.history-container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #34495e;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .history-container h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #ecf0f1;
+  }
+  
+  #historyList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .history-item {
+    padding: 10px;
+    border-bottom: 1px solid #2c3e50;
+    transition: background-color 0.3s ease;
+  }
+  
+  .history-item:last-child {
+    border-bottom: none;
+  }
+  
+  .history-item:hover {
+    background-color: #2c3e50;
+  }
+  
+  .history-date {
+    font-size: 12px;
+    color: #bdc3c7;
+  }
+  
+  .history-details {
+    display: block;
+    font-size: 14px;
+    color: #ecf0f1;
+    margin-top: 5px;
+  }
+  /* Profile Setup Page Styles */
+.profile-setup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-setup-container h1 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+
+  
+  .btn-submit {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    background-color: #2980b9;
+  }
+  /* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4; /* Default background */
+}
+
+/* Apply Background Only for Login & Signup Pages */
+.login-page, .signup-page {
+    background: url('/image/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Glassmorphism Card */
+.card12 {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent */
+    padding: 30px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+}
+
+/* Form Fields */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+/* Style for all labels */
+label {
+  font-weight: bold;
+  color: black;
+}
+
+
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: black; /* Change to black */
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Buttons */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Links */
+.link {
+    margin-top: 10px;
+}
+
+.link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-icon {
+    font-size: 50px;
+    color: #3498db;
+}
+
+.username-text {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #0b0b0b;
+}
+
+.logout-container {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    width: 100%;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.logout-btn {
+    background-color: transparent;
+    color: white !important;
+    border: 2px solid white !important;
+    padding: 12px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logout-btn:hover {
+    background-color: white;
+    color: #e74c3c !important;
+    border: 2px solid white;
+}
+
+/* Main Content Styles */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Card Styles */
+.card1, .card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card1 h1, .card h1, .card h2 {
+    color: #2c3e50;
+}
+
+/* Hidden Elements */
+.hidden {
+    display: none;
+}
+input::placeholder {
+    color: #999; /* Light gray color for placeholder text */
+    opacity: 1; /* Ensure placeholder is fully visible */
+  }
+  .hidden {
+    display: none;
+  }
+  #editProfileForm {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    display: none;
+    z-index: 1000;
+}
+
+#editProfileForm h2 {
+    text-align: center;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
+}
